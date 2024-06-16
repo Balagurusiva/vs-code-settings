@@ -1,0 +1,161 @@
+{
+	"highlight.regexes": {
+		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+			"decorations": [
+				{
+					"overviewRulerColor": "#ffcc00",
+					"backgroundColor": "#ffcc00",
+					"color": "#1f1f1f",
+					"fontWeight": "bold"
+				},
+				{
+					"backgroundColor": "#ffcc00",
+					"color": "#1f1f1f"
+				}
+			]
+		},
+		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+			"decorations": [
+				{
+					"overviewRulerColor": "#cc0000",
+					"backgroundColor": "#cc0000",
+					"color": "#1f1f1f",
+					"fontWeight": "bold"
+				},
+				{
+					"backgroundColor": "#cc0000",
+					"color": "#1f1f1f"
+				}
+			]
+		},
+		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+			"decorations": [
+				{
+					"overviewRulerColor": "#00ccff",
+					"backgroundColor": "#00ccff",
+					"color": "#1f1f1f",
+					"fontWeight": "bold"
+				},
+				{
+					"backgroundColor": "#00ccff",
+					"color": "#1f1f1f"
+				}
+			]
+		},
+		"((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+			"filterFileRegex": ".*(?<!CHANGELOG.md)$",
+			"decorations": [
+				{
+					"overviewRulerColor": "#cc00cc",
+					"backgroundColor": "#cc00cc",
+					"color": "#1f1f1f",
+					"fontWeight": "bold"
+				},
+				{
+					"backgroundColor": "#cc00cc",
+					"color": "#1f1f1f"
+				}
+			]
+		}
+	},
+	"extensions.autoUpdate": "onlySelectedExtensions",
+	"sqltools.connections": [
+		{
+			"mysqlOptions": {
+				"authProtocol": "default"
+			},
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 3306,
+			"driver": "MySQL",
+			"name": "sqldb1",
+			"database": "db1",
+			"username": "bala",
+			"password": "Bala@2002"
+		}
+	],
+	"[python]": {
+		"editor.formatOnType": true
+	},
+	"git.enableSmartCommit": true,
+	"git.autofetch": true,
+	"explorer.confirmDelete": false,
+	"git.confirmSync": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"tabnine.experimentalAutoImports": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"explorer.confirmDragAndDrop": false,
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"terminal.integrated.fontFamily": "monospace",
+	"editor.fontLigatures": false,
+	"editor.codeLensFontFamily": "Dank Mono",
+	"workbench.preferredDarkColorTheme": "Ayu Dark",
+	"workbench.preferredHighContrastColorTheme": "Ayu Dark",
+	"editor.wrappingIndent": "none",
+	"editor.stickyScroll.defaultModel": "indentationModel",
+	"settingsSync.ignoredExtensions": [],
+	"html.format.indentHandlebars": true,
+	"html.format.indentInnerHtml": true,
+	"git.openRepositoryInParentFolders": "always",
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"editor.autoClosingBrackets": "always",
+	"rapidapi.terminalLink.enabled": false,
+	"redhat.telemetry.enabled": true,
+	"git.ignoreMissingGitWarning": true,
+	"editor.minimap.enabled": false,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"reactSnippets.settings.prettierEnabled": true,
+	"reactSnippets.settings.languageScopes": "javascript,javascriptreact",
+	"editor.formatOnSave": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"prettier.useTabs": true,
+	"prettier.vueIndentScriptAndStyle": true,
+	"editor.autoIndent": "advanced",
+	"workbench.startupEditor": "none",
+	"editor.stickyTabStops": true,
+	"editor.detectIndentation": false,
+	"[dart]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true,
+		"editor.rulers": [80],
+		"editor.selectionHighlight": false,
+		"editor.suggestSelection": "first",
+		"editor.tabCompletion": "onlySnippets",
+		"editor.wordBasedSuggestions": "off"
+	},
+	"files.autoSave": "afterDelay",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"explorer.compactFolders": false,
+	"liveServer.settings.donotVerifyTags": true,
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[vue]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"workbench.colorTheme": "Dark Magic",
+	"editor.fontFamily": "Dank Mono",
+	"vue.server.hybridMode": true,
+	"files.associations": {
+		"*.vue": "vue"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}
